@@ -1,6 +1,6 @@
 /*
 	Dual-tone images
-	- 2018-09-27 Jake Nicholson (www.eskdale.net)
+	- 2018-09-27 Jake Nicholson (github.com/shakyjake)
 	
 	This is free and unencumbered software released into the public domain.
 
