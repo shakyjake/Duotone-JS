@@ -55,14 +55,11 @@ Duotone = function(Selector){
 			From = 1;
 			To = Parts.length;
 			
-			console.log([From, To]);
-			
 			while(From < To){
 				Stop = document.createElementNS(NS, 'stop');
 				Stop.setAttributeNS(null, 'offset', (((From - 1) / (To - 2)) * 100) + '%');
 				Stop.setAttributeNS(null, 'stop-color', Parts[From]);
 				Gradient.appendChild(Stop);
-				console.log(Stop);
 				From += 1;
 			}
 			
