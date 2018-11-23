@@ -124,7 +124,7 @@
 					<p>Specify the colours you wish to use by adding a data-highlight and data-lowlight attribute to your images. Include the Duotone JS script somewhere in the page and apply the effect with "new Duotone(<em>Selector</em>);", where "Selector" matches any other image. Your images must have width and height attributes.</p>
 					
 					<code>&lt;img class="duo" data-highlight="#0CF" data-lowlight="#013" width="927" height="1246" src="example/dave-ruck-1075684-unsplash.jpg" alt="example" /&gt;
-&lt;script src="duotone/duotone.0.1.js"&gt;&lt;/script&gt;
+&lt;script src="duotone/duotone.0.2.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 	(function(){
 		new Duotone('.duo');
@@ -141,13 +141,20 @@
 					
 					<img src="example/ferenc-horvath-577892-unsplash.jpg" width="927" height="1388" alt="" data-highlight="#F60" data-lowlight="#003" />
 					<p>Photo by <a href="https://unsplash.com/photos/skcFiBu91AA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ferenc Horvath</a> on <a href="https://unsplash.com/search/photos/space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+					
+					<h2>Gradients</h2>
+					
+					<p>V0.2 introduces the ability to use gradients instead of just flat colours. To use, specify the angle and each colour in the gradient in the data-lowlight or data-highlight attributes (e.g. data-highlight="90,#91b6f5,#cff58b")</p>
+					
+					<img src="example/karsten-wurth-inf1783-191411-unsplash.jpg" width="5472" height="3648" alt="" data-highlight="90,#91b6f5,#cff58b" data-lowlight="-45,#182e0a,#5f0b4a" />
+					<p>Photo by <a href="https://unsplash.com/photos/jS0zC2PJ17A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Wurth</a> on <a href="https://unsplash.com/search/photos/space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 				
 				</div>
 			
 			</div>
 		
 		</main>
-		<script src="duotone/duotone.0.1.js"></script>
+		<script src="duotone/duotone.0.2.js"></script>
 		<script>
 			(function(){
 				new Duotone('img');
